@@ -1,39 +1,61 @@
-# vueWebSockets
+# Project Name
 
-This template should help get you started developing with Vue 3 in Vite.
+A brief description of what this project does and who it's for.
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Type Support for `.vue` Imports in TS
+## Introduction
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+This project is built using Vue 3, TypeScript, WebSockets, and Pinia. It aims to provide [describe the main goal or purpose of the project].
 
-## Customize configuration
+## Features
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **Vue 3**: Utilizes the latest Vue 3 features including the Composition API.
+- **TypeScript**: Ensures type safety and better development experience.
+- **WebSockets**: Real-time communication with the server.
+- **Pinia**: State management library for Vue 3.
 
-## Project Setup
+## Getting Started
 
-```sh
-npm install
-```
+### Prerequisites
 
-### Compile and Hot-Reload for Development
+Make sure you have the following software installed:
 
-```sh
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) (v6 or later) or [Yarn](https://yarnpkg.com/) (v1 or later)
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/your-repository.git
+   cd your-repository
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+   Or if you use Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+### Running the Development Server
+
+Start the development server with the following command:
+
+```bash
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
