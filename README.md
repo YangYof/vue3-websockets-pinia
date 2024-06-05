@@ -1,60 +1,45 @@
-# Project Name
+# 專案名稱
 
-A brief description of what this project does and who it's for.
+測試websocket功能。
 
-## Table of Contents
+## 簡介
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+此專案使用 Vue 3、TypeScript、WebSockets 和 Pinia 構建。
 
-## Introduction
+## 功能
 
-This project is built using Vue 3, TypeScript, WebSockets, and Pinia. It aims to provide [describe the main goal or purpose of the project].
+- **Vue 3**：利用最新的 Vue 3 特性，包括組合式 API。
+- **TypeScript**：確保類型安全和更好的開發體驗。
+- **WebSockets**：與伺服器進行實時通信。
+- **Pinia**：適用於 Vue 3 的狀態管理庫。
 
-## Features
+## 快速開始
 
-- **Vue 3**: Utilizes the latest Vue 3 features including the Composition API.
-- **TypeScript**: Ensures type safety and better development experience.
-- **WebSockets**: Real-time communication with the server.
-- **Pinia**: State management library for Vue 3.
+### 先決條件
 
-## Getting Started
+確保你已經安裝以下軟體：
 
-### Prerequisites
+- [Node.js](https://nodejs.org/)（版本 16.20 或更高）
+- [npm](https://www.npmjs.com/)（版本 6 或更高
 
-Make sure you have the following software installed:
+### 安裝
 
-- [Node.js](https://nodejs.org/) (v14 or later)
-- [npm](https://www.npmjs.com/) (v6 or later) or [Yarn](https://yarnpkg.com/) (v1 or later)
-
-### Installation
-
-1. **Clone the repository**:
+1. **clone儲存庫**：
 
    ```bash
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
    ```
 
-2. **Install dependencies**:
+2. **安裝依賴**：
 
    ```bash
    npm install
    ```
 
-   Or if you use Yarn:
+### 運行開發伺服器
 
-   ```bash
-   yarn install
-   ```
-
-### Running the Development Server
-
-Start the development server with the following command:
+使用以下命令啟動開發伺服器：
 
 ```bash
 npm run dev
